@@ -2,7 +2,7 @@
   "name": "chat-app",
   "version": "1.0.0",
   "description": "A chat application build by using react,socket.io and node.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "nodemon"
   },
@@ -18,7 +18,12 @@
   },
   "homepage": "https://github.com/pratikshit3453/chat-app#readme",
   "dependencies": {
+    "dot-env": "0.0.1",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "js-sha256": "^0.9.0",
+    "jwt-then": "^1.0.1",
+    "mongodb": "^3.6.2",
     "mongoose": "^5.10.8"
   }
 }
